@@ -15,6 +15,11 @@
 		9C3375631D51846A009C370C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C3375611D51846A009C370C /* LaunchScreen.storyboard */; };
 		9C33756E1D51846A009C370C /* test1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C33756D1D51846A009C370C /* test1Tests.m */; };
 		9C3375791D51846A009C370C /* test1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3375781D51846A009C370C /* test1UITests.m */; };
+		9C3375881D5184E5009C370C /* BaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3375871D5184E5009C370C /* BaseNavViewController.m */; };
+		9C33758B1D518575009C370C /* AttentionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C33758A1D518575009C370C /* AttentionViewController.m */; };
+		9C33758E1D518590009C370C /* FavouriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C33758D1D518590009C370C /* FavouriteViewController.m */; };
+		9C3375911D5185AB009C370C /* GachincoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3375901D5185AB009C370C /* GachincoViewController.m */; };
+		9C3375961D5197AF009C370C /* UIView+HHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3375941D5197AF009C370C /* UIView+HHExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		9C3375741D51846A009C370C /* test1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C3375781D51846A009C370C /* test1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test1UITests.m; sourceTree = "<group>"; };
 		9C33757A1D51846A009C370C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C3375861D5184E4009C370C /* BaseNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavViewController.h; sourceTree = "<group>"; };
+		9C3375871D5184E5009C370C /* BaseNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavViewController.m; sourceTree = "<group>"; };
+		9C3375891D518575009C370C /* AttentionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttentionViewController.h; sourceTree = "<group>"; };
+		9C33758A1D518575009C370C /* AttentionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttentionViewController.m; sourceTree = "<group>"; };
+		9C33758C1D518590009C370C /* FavouriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavouriteViewController.h; sourceTree = "<group>"; };
+		9C33758D1D518590009C370C /* FavouriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavouriteViewController.m; sourceTree = "<group>"; };
+		9C33758F1D5185AB009C370C /* GachincoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GachincoViewController.h; sourceTree = "<group>"; };
+		9C3375901D5185AB009C370C /* GachincoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GachincoViewController.m; sourceTree = "<group>"; };
+		9C3375931D5197AF009C370C /* UIView+HHExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HHExtension.h"; sourceTree = "<group>"; };
+		9C3375941D5197AF009C370C /* UIView+HHExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HHExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +120,16 @@
 				9C3375571D51846A009C370C /* AppDelegate.m */,
 				9C3375591D51846A009C370C /* ViewController.h */,
 				9C33755A1D51846A009C370C /* ViewController.m */,
+				9C3375891D518575009C370C /* AttentionViewController.h */,
+				9C33758A1D518575009C370C /* AttentionViewController.m */,
+				9C33758C1D518590009C370C /* FavouriteViewController.h */,
+				9C33758D1D518590009C370C /* FavouriteViewController.m */,
+				9C33758F1D5185AB009C370C /* GachincoViewController.h */,
+				9C3375901D5185AB009C370C /* GachincoViewController.m */,
+				9C3375861D5184E4009C370C /* BaseNavViewController.h */,
+				9C3375871D5184E5009C370C /* BaseNavViewController.m */,
+				9C3375931D5197AF009C370C /* UIView+HHExtension.h */,
+				9C3375941D5197AF009C370C /* UIView+HHExtension.m */,
 				9C33755C1D51846A009C370C /* Main.storyboard */,
 				9C33755F1D51846A009C370C /* Assets.xcassets */,
 				9C3375611D51846A009C370C /* LaunchScreen.storyboard */,
@@ -270,8 +295,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C3375911D5185AB009C370C /* GachincoViewController.m in Sources */,
+				9C33758E1D518590009C370C /* FavouriteViewController.m in Sources */,
 				9C33755B1D51846A009C370C /* ViewController.m in Sources */,
+				9C3375881D5184E5009C370C /* BaseNavViewController.m in Sources */,
 				9C3375581D51846A009C370C /* AppDelegate.m in Sources */,
+				9C3375961D5197AF009C370C /* UIView+HHExtension.m in Sources */,
+				9C33758B1D518575009C370C /* AttentionViewController.m in Sources */,
 				9C3375551D51846A009C370C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
